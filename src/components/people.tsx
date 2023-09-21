@@ -1,3 +1,5 @@
+import StarWarsPeople from "../starWarsPeople";
+
 interface PeopleProps {
   people : StarWarsPeople;
 

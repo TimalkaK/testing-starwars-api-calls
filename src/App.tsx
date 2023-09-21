@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/header';
 import { useEffect, useState } from 'react';
 import People from './components/people';
+import StarWarsPeople from './starWarsPeople';
 
 function App(): JSX.Element {
 
