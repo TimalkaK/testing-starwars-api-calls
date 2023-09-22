@@ -22,7 +22,7 @@ function App(): JSX.Element {
 
 			<main>
 				<div className='cards__wrapper'>
-				<h2>Star Wars person: {peopleName}</h2>
+				<h2>Star Wars person: {peopleName} </h2>
 				</div>
 			</main>
 		</>

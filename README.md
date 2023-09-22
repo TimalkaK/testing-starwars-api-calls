@@ -1,10 +1,8 @@
 # Testing Star Wars API Calls
 
-Welcome to the wonderful world of React!
+Welcome to the wonderful world of Star Wars!
 
-We'll be investigating components, props and state. Let's get started 🙌
-
-![React Atom](./public/catom-dog.png)
+This App will be displaying the first Star wars character name from the API 🙌
 
 ## How to Get Started
 
@@ -40,8 +38,4 @@ The page will reload if you make edits 👍
 
 You will also see any lint errors in the console ✅
 
-You'll see there's a (very) basic React app already created for you. Have an explore of the files and get a sense of what it's doing. We're going to be adding features to make it more interactive.
 
-Meow, lets get started!
-
-Head over to [Activity 1](./activities/activity_1.md) to begin!
