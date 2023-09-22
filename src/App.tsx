@@ -1,20 +1,19 @@
 import './App.css';
 import Header from './components/header';
 import { useEffect, useState } from 'react';
-import People from './components/people';
-import StarWarsPeople from './starWarsPeople';
 
 function App(): JSX.Element {
 
-	const [ people, setPeople ] = useState<Array<StarWarsPeople>>([]);
+	const [ peopleName, setPeopleName ] = useState("");
+
 
 	useEffect(() => {
-		const getPeople = async () => {
+		const getPerson = async () => {
 			const response = await fetch('https://swapi.dev/api/people/1/');
-			const json = await response.json() as { data: StarWarsPeople[]};
-			setPeople(json.data);
+			const json = await response.json();
+			setPeopleName(json.name);
 		};
-		getPeople();
+		getPerson();
 	},[]);
 
 	return (
@@ -23,7 +22,7 @@ function App(): JSX.Element {
 
 			<main>
 				<div className='cards__wrapper'>
-					<People people={people}/>
+				<h2>Star Wars person: {peopleName}</h2>
 				</div>
 			</main>
 		</>
