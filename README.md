@@ -1,4 +1,4 @@
-# React Props and State
+# Testing Star Wars API Calls
 
 Welcome to the wonderful world of React!
 
